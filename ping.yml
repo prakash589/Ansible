@@ -1,0 +1,9 @@
+---
+ - name: ping 
+   hosts: HostName  #your hosts name or ip address or all 
+   gather_facts: no 
+
+
+   tasks: 
+   - name: ping
+     win_ping:
